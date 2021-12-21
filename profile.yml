@@ -1,2 +1,30 @@
 masterBase:
   url: http://172.21.1.122:8183/
+requestmapping:
+  country:
+    id: /country/id/{id}
+    name: /country/name/{name}
+  gender:
+    id: /gender/id/{id}
+    name: /gender/name/{name}
+  marital:
+    id: /MaritalStatus/id/{id}
+    name: /MaritalStatus/name/{name}
+  occupation:
+    id: /Occupation/id/{id}
+    name: /Occupation/name/{name}
+  caste:
+    id: /Caste/id/{id}
+    name: /Caste/name/{name}
+  prefCategory:
+    id: /PrefCategory/id/{id}
+    name: /PrefCategory/name/{name}
+  qualification:
+    id: /Qualification/id/{id}
+    name: /Qualification/name/{name}
+  religion:
+    id: /Religion/id/{id}
+    name: /Religion/name/{name}
+  residential:
+    id: /ResidentialStatus/id/{id}
+    name: /ResidentialStatus/name/{name}
