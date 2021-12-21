@@ -1,30 +1,20 @@
-masterBase:
-  url: http://172.21.1.122:8183/
 requestmapping:
-  country:
-    id: /country/id/{id}
-    name: /country/name/{name}
-  gender:
-    id: /gender/id/{id}
-    name: /gender/name/{name}
-  marital:
-    id: /MaritalStatus/id/{id}
-    name: /MaritalStatus/name/{name}
-  occupation:
-    id: /Occupation/id/{id}
-    name: /Occupation/name/{name}
-  caste:
-    id: /Caste/id/{id}
-    name: /Caste/name/{name}
-  prefCategory:
-    id: /PrefCategory/id/{id}
-    name: /PrefCategory/name/{name}
-  qualification:
-    id: /Qualification/id/{id}
-    name: /Qualification/name/{name}
-  religion:
-    id: /Religion/id/{id}
-    name: /Religion/name/{name}
-  residential:
-    id: /ResidentialStatus/id/{id}
-    name: /ResidentialStatus/name/{name}
+  masterbaseurl: http://172.21.1.122:8183/
+  countryid: /country/id/{id}
+  countryname: /country/name/{name}
+  genderid: /gender/id/{id}
+  gendername: /gender/name/{name}
+  maritalid: /MaritalStatus/id/{id}
+  maritalname: /MaritalStatus/name/{name}
+  occupationid: /Occupation/id/{id}
+  occupationname: /Occupation/name/{name}
+  casteid: /Caste/id/{id}
+  castename: /Caste/name/{name}
+  prefCategoryid: /PrefCategory/id/{id}
+  prefCategoryname: /PrefCategory/name/{name}
+  qualificationid: /Qualification/id/{id}
+  qualificationname: /Qualification/name/{name}
+  religionid: /Religion/id/{id}
+  religionname: /Religion/name/{name}
+  residentialid: /ResidentialStatus/id/{id}
+  residentialname: /ResidentialStatus/name/{name}
